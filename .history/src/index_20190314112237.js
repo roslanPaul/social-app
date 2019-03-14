@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import {render} from 'react-dom';
+import {render} 'react-dom';
 const node = document.getElementById('root');
 const root = 
-    React.createElement('div', {},
+    React.createElement('div', {}
         React.createElement('h1', {}, "Hello, world!",
             React.createElement('a', {href: 'mailto:mrxxjoshua@gmail.com'},
-                React.createElement('h1', {}, "React in Action"),
+                React.createElement('h1', {}, "React in Action")
                 React.createElement('em', {}, "...and now it really is")
             )
         )
     );
-    render(root, node);
