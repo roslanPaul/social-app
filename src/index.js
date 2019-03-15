@@ -187,7 +187,6 @@ class CommentBox extends Component {
 
   handleCommentSubmit(comment) {
     const comments = this.state.comments;
-
     comment.id = Date.now();
     const newComments = comments.concat([comment]);
     this.setState({
